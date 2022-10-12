@@ -1,4 +1,4 @@
-Example:
+#### Example:
 
 I want to evaluate both paspio and zxcvbn crates on rockyou.txt wordlist with a minimum zxcvbn score of 3/4 (zxcvbn ranks your passwords from 0 to 4)
 
@@ -6,7 +6,7 @@ I want to evaluate both paspio and zxcvbn crates on rockyou.txt wordlist with a 
 $ ./dirty-entropy-rs rockyou.txt 3
 ```
 
-Result:
+#### Result:
 
 ```
 'teamomiamor' has an entropy of 51.70483689955201 (paspio) or 8.143712248016522 (zxcvbn) and a score of 3
